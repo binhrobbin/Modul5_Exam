@@ -1,0 +1,108 @@
+{
+  "orders": [
+    {
+      "id": 200,
+      "date": "11/01/2019",
+      "money": 500,
+      "quantity": 1,
+      "products": {
+        "id": 1,
+        "name": "Iphone 15 prm",
+        "price": 500,
+        "type": "Điện Thoại"
+      }
+    },
+    {
+      "id": 201,
+      "date": "21/01/2020",
+      "money": 4000,
+      "quantity": 2,
+      "products": {
+        "id": 2,
+        "name": "Dell vostrol",
+        "price": 2000,
+        "type": "Laptop"
+      }
+    },
+    {
+      "id": 202,
+      "date": "15/08/2022",
+      "money": 700,
+      "quantity": 1,
+      "products": {
+        "id": 3,
+        "name": "Note 20",
+        "price": 700,
+        "type": "Điện Thoại"
+      }
+    },
+    {
+      "id": 203,
+      "date": "20/01/2018",
+      "money": 800,
+      "quantity": 2,
+      "products": {
+        "id": 4,
+        "name": "Xiao MI",
+        "price": 400,
+        "type": "Điện Thoại"
+      }
+    },
+    {
+      "id": 5,
+      "date": "02/03/2000",
+      "quantity": 3,
+      "products": {
+        "id": 3,
+        "name": "Note 20",
+        "price": 700,
+        "type": "Điện Thoại"
+      },
+      "money": 2100
+    },
+    {
+      "id": 7,
+      "date": "02/03/2000",
+      "quantity": 1,
+      "products": {
+        "id": 5,
+        "name": "Acer",
+        "price": 1500,
+        "type": "Laptop"
+      },
+      "money": 1500
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Iphone 15 prm",
+      "price": 500,
+      "type": "Điện Thoại"
+    },
+    {
+      "id": 2,
+      "name": "Dell vostrol",
+      "price": 2000,
+      "type": "Laptop"
+    },
+    {
+      "id": 3,
+      "name": "Note 20",
+      "price": 700,
+      "type": "Điện Thoại"
+    },
+    {
+      "id": 4,
+      "name": "Xiao MI",
+      "price": 400,
+      "type": "Điện Thoại"
+    },
+    {
+      "id": 5,
+      "name": "Acer",
+      "price": 1500,
+      "type": "Laptop"
+    }
+  ]
+}

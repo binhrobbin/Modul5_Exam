@@ -1,25 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Route, Routes,NavLink } from 'react-router-dom';
+import OrderList from './components/OrderList';
+import Create from './components/OrderCreate';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import Update from './components/OrderUpdate';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <BrowserRouter>
+    <NavLink to={'/orders'}>Danh sách </NavLink> | 
+    <NavLink to={'/create'}> Tạo mới</NavLink>
+    <Routes>
+      <Route path='/orders' element={<OrderList/>}></Route>
+      <Route path='/create' element={<Create/>}></Route>
+      <Route path='/orders/:id/update' element={<Update/>}></Route>
+    </Routes>
+    </BrowserRouter>
+    <ToastContainer/>
     </div>
   );
 }
 
 export default App;
+
